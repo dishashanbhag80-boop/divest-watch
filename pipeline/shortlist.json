@@ -1,0 +1,727 @@
+{
+ "_source": "https://investigate.info/divest (BDS divestment shortlist, fetched 2026-10-05)",
+ "_how_matching_works": "Supplier names are lowercased, '&' becomes 'and', punctuation becomes spaces. A supplier matches a company if any phrase in 'aliases' appears as whole words. 'broad' phrases also match but are flagged confidence=check (common words, parent-group names, brand licences). 'exclude' phrases veto a match. 'ch' = UK Companies House numbers, matched against OCDS party identifiers (most reliable).",
+ "companies": [
+  {
+   "name": "Allison Transmission Holdings Inc",
+   "country": "USA",
+   "aliases": [
+    "allison transmission"
+   ]
+  },
+  {
+   "name": "Alony-Hetz Properties & Investments Ltd",
+   "country": "Israel",
+   "aliases": [
+    "alony hetz"
+   ]
+  },
+  {
+   "name": "Amir Marketing & Investments In Agriculture Ltd",
+   "country": "Israel",
+   "aliases": [
+    "amir marketing and investments"
+   ]
+  },
+  {
+   "name": "Ashot- Ashkelon Industries Ltd",
+   "country": "Israel",
+   "aliases": [
+    "ashot ashkelon"
+   ]
+  },
+  {
+   "name": "Ashtrom Group Ltd",
+   "country": "Israel",
+   "aliases": [
+    "ashtrom"
+   ]
+  },
+  {
+   "name": "Axon Enterprise Inc",
+   "country": "USA",
+   "aliases": [
+    "axon enterprise",
+    "axon public safety",
+    "taser international",
+    "axon public saftey"
+   ],
+   "broad": [
+    "axon"
+   ],
+   "exclude": [
+    "axon medical",
+    "axonmedical",
+    "axon diagnostics",
+    "axon education"
+   ]
+  },
+  {
+   "name": "BAE Systems PLC",
+   "country": "UK",
+   "aliases": [
+    "bae systems",
+    "bae system",
+    "british aerospace"
+   ]
+  },
+  {
+   "name": "Bank Hapoalim BM",
+   "country": "Israel",
+   "aliases": [
+    "bank hapoalim"
+   ]
+  },
+  {
+   "name": "Bank Leumi Le-Israel BM",
+   "country": "Israel",
+   "aliases": [
+    "bank leumi"
+   ]
+  },
+  {
+   "name": "Bank of Jerusalem Ltd",
+   "country": "Israel",
+   "aliases": [
+    "bank of jerusalem"
+   ]
+  },
+  {
+   "name": "Bezeq The Israeli Telecommunication Corp Ltd",
+   "country": "Israel",
+   "aliases": [
+    "bezeq"
+   ]
+  },
+  {
+   "name": "Boeing Co",
+   "country": "USA",
+   "aliases": [
+    "boeing",
+    "insitu"
+   ]
+  },
+  {
+   "name": "C Mer Industries Ltd",
+   "country": "Israel",
+   "aliases": [
+    "c mer industries"
+   ]
+  },
+  {
+   "name": "Cadre Holdings Inc",
+   "country": "USA",
+   "aliases": [
+    "cadre holdings",
+    "safariland",
+    "med eng"
+   ]
+  },
+  {
+   "name": "Caterpillar Inc",
+   "country": "USA",
+   "aliases": [
+    "caterpillar",
+    "perkins engines",
+    "solar turbines"
+   ],
+   "broad": []
+  },
+  {
+   "name": "Cellcom Israel Ltd",
+   "country": "Israel",
+   "aliases": [
+    "cellcom israel"
+   ]
+  },
+  {
+   "name": "Cellebrite DI Ltd",
+   "country": "Israel",
+   "aliases": [
+    "cellebrite"
+   ]
+  },
+  {
+   "name": "Cemex SAB de CV",
+   "country": "Mexico",
+   "aliases": [
+    "cemex"
+   ]
+  },
+  {
+   "name": "Chevron Corp",
+   "country": "USA",
+   "aliases": [
+    "chevron corporation",
+    "chevron products",
+    "chevron north sea",
+    "chevron u s a",
+    "chevron usa"
+   ],
+   "broad": [],
+   "exclude": [
+    "chevron traffic",
+    "chevron tm",
+    "chevron group",
+    "chevron technical",
+    "chevron training",
+    "chevron uk ltd"
+   ]
+  },
+  {
+   "name": "Colt CZ Group SE",
+   "country": "Czech Republic",
+   "aliases": [
+    "colt cz",
+    "ceska zbrojovka",
+    "sellier and bellot",
+    "colt canada"
+   ]
+  },
+  {
+   "name": "Danya Cebus Ltd",
+   "country": "Israel",
+   "aliases": [
+    "danya cebus"
+   ]
+  },
+  {
+   "name": "Delek Group Ltd",
+   "country": "Israel",
+   "aliases": [
+    "delek group",
+    "delek drilling"
+   ]
+  },
+  {
+   "name": "Dor Alon Energy In Israel",
+   "country": "Israel",
+   "aliases": [
+    "dor alon"
+   ]
+  },
+  {
+   "name": "DUKE Robotics Corp",
+   "country": "Israel",
+   "aliases": [
+    "duke robotics"
+   ]
+  },
+  {
+   "name": "Elbit Systems Ltd",
+   "country": "Israel",
+   "aliases": [
+    "elbit",
+    "uav tactical systems",
+    "u tacs",
+    "instro precision",
+    "ferranti technologies",
+    "elbit systems uk",
+    "elisra",
+    "imi systems"
+   ]
+  },
+  {
+   "name": "Elco Ltd",
+   "country": "Israel",
+   "aliases": [
+    "elco holdings"
+   ],
+   "broad": [
+    "elco ltd"
+   ]
+  },
+  {
+   "name": "Electra Ltd",
+   "country": "Israel",
+   "aliases": [
+    "electra ltd israel"
+   ],
+   "broad": [
+    "electra ltd"
+   ],
+   "exclude": [
+    "electra commercial vehicles",
+    "electra private equity"
+   ]
+  },
+  {
+   "name": "Energix-Renewable Energies Ltd",
+   "country": "Israel",
+   "aliases": [
+    "energix"
+   ]
+  },
+  {
+   "name": "Export Investment Corp Ltd",
+   "country": "Israel",
+   "aliases": [
+    "export investment corp"
+   ]
+  },
+  {
+   "name": "F I B I Holding Ltd",
+   "country": "Israel",
+   "aliases": [
+    "f i b i holding",
+    "fibi holding"
+   ]
+  },
+  {
+   "name": "First International Bank of Israel Ltd",
+   "country": "Israel",
+   "aliases": [
+    "first international bank of israel"
+   ]
+  },
+  {
+   "name": "Formula Systems (1985) Ltd",
+   "country": "Israel",
+   "aliases": [
+    "formula systems"
+   ],
+   "broad": [
+    "sapiens international",
+    "magic software"
+   ]
+  },
+  {
+   "name": "Fosun International Ltd",
+   "country": "China",
+   "aliases": [
+    "fosun"
+   ]
+  },
+  {
+   "name": "G1 Secure Solutions Ltd",
+   "country": "Israel",
+   "aliases": [
+    "g1 secure solutions"
+   ]
+  },
+  {
+   "name": "GE Aerospace",
+   "country": "USA",
+   "aliases": [
+    "ge aerospace",
+    "ge aviation",
+    "unison engine components"
+   ]
+  },
+  {
+   "name": "Genasys Inc",
+   "country": "USA",
+   "aliases": [
+    "genasys"
+   ]
+  },
+  {
+   "name": "General Dynamics Corp",
+   "country": "USA",
+   "aliases": [
+    "general dynamics",
+    "gulfstream aerospace"
+   ]
+  },
+  {
+   "name": "Heidelberg Materials AG",
+   "country": "Germany",
+   "aliases": [
+    "heidelberg materials",
+    "heidelbergcement",
+    "hanson quarry products",
+    "hanson uk",
+    "hanson cement",
+    "hanson concrete",
+    "hanson aggregates"
+   ]
+  },
+  {
+   "name": "Honeywell Aerospace Inc",
+   "country": "USA",
+   "aliases": [
+    "honeywell aerospace"
+   ],
+   "broad": [
+    "honeywell"
+   ]
+  },
+  {
+   "name": "International Business Machines Corp",
+   "country": "USA",
+   "aliases": [
+    "ibm",
+    "international business machines"
+   ]
+  },
+  {
+   "name": "Israel Discount Bank Ltd",
+   "country": "Israel",
+   "aliases": [
+    "israel discount bank"
+   ]
+  },
+  {
+   "name": "Kardan NV",
+   "country": "Netherlands",
+   "aliases": [
+    "kardan"
+   ]
+  },
+  {
+   "name": "Kongsberg Gruppen ASA",
+   "country": "Norway",
+   "aliases": [
+    "kongsberg"
+   ]
+  },
+  {
+   "name": "L3Harris Technologies Inc",
+   "country": "USA",
+   "aliases": [
+    "l3harris",
+    "l3 harris",
+    "l 3 harris",
+    "l3 technologies",
+    "harris corporation",
+    "aerojet rocketdyne"
+   ]
+  },
+  {
+   "name": "Lapidoth Capital Ltd",
+   "country": "Israel",
+   "aliases": [
+    "lapidoth"
+   ]
+  },
+  {
+   "name": "Leonardo SpA",
+   "country": "Italy",
+   "aliases": [
+    "leonardo uk",
+    "leonardo mw",
+    "leonardo s p a",
+    "leonardo spa",
+    "leonardo drs",
+    "leonardo helicopters",
+    "leonardo hellas",
+    "agustawestland",
+    "selex es",
+    "selex galileo",
+    "finmeccanica",
+    "leonardo helicopter"
+   ],
+   "broad": [
+    "leonardo"
+   ],
+   "exclude": [
+    "leonardo hotel",
+    "leonardo inn",
+    "leonardo cardiff hotel",
+    "leonardo hotels",
+    "leonardo royal"
+   ]
+  },
+  {
+   "name": "Lesico Ltd",
+   "country": "Israel",
+   "aliases": [
+    "lesico"
+   ]
+  },
+  {
+   "name": "LIG Nex1 Co Ltd",
+   "country": "South Korea",
+   "aliases": [
+    "lig nex1",
+    "lignex1"
+   ]
+  },
+  {
+   "name": "Lockheed Martin Corp",
+   "country": "USA",
+   "aliases": [
+    "lockheed martin",
+    "lockheed",
+    "sikorsky",
+    "ampthill metal companies"
+   ]
+  },
+  {
+   "name": "Matrix IT Ltd",
+   "country": "Israel",
+   "aliases": [
+    "matrix it ltd israel"
+   ],
+   "broad": [
+    "matrix it"
+   ]
+  },
+  {
+   "name": "Mega Or Holdings Ltd",
+   "country": "Israel",
+   "aliases": [
+    "mega or holdings"
+   ]
+  },
+  {
+   "name": "Mivne Real Estate (K.D) Ltd",
+   "country": "Israel",
+   "aliases": [
+    "mivne real estate"
+   ]
+  },
+  {
+   "name": "Mizrahi Tefahot Bank Ltd",
+   "country": "Israel",
+   "aliases": [
+    "mizrahi tefahot"
+   ]
+  },
+  {
+   "name": "Mordechai Aviv Taasiot Beniyah (1973) Ltd",
+   "country": "Israel",
+   "aliases": [
+    "mordechai aviv"
+   ]
+  },
+  {
+   "name": "Motorola Solutions Inc",
+   "country": "USA",
+   "aliases": [
+    "motorola solutions",
+    "airwave solutions",
+    "avigilon",
+    "indigovision",
+    "zetron",
+    "watchguard video",
+    "kodiak networks"
+   ],
+   "broad": [
+    "motorola"
+   ],
+   "exclude": [
+    "motorola mobility"
+   ]
+  },
+  {
+   "name": "NewMed Energy LP",
+   "country": "Israel",
+   "aliases": [
+    "newmed energy"
+   ]
+  },
+  {
+   "name": "Northrop Grumman Corp",
+   "country": "USA",
+   "aliases": [
+    "northrop grumman",
+    "northrop"
+   ]
+  },
+  {
+   "name": "Oron Group Investments & Holdings Ltd",
+   "country": "Israel",
+   "aliases": [
+    "oron group"
+   ]
+  },
+  {
+   "name": "Oshkosh Corp",
+   "country": "USA",
+   "aliases": [
+    "oshkosh",
+    "jlg industries",
+    "pierce manufacturing"
+   ]
+  },
+  {
+   "name": "Palantir Technologies Inc",
+   "country": "USA",
+   "aliases": [
+    "palantir"
+   ]
+  },
+  {
+   "name": "Partner Communications Co Ltd",
+   "country": "Israel",
+   "aliases": [
+    "partner communications company"
+   ],
+   "broad": [
+    "partner communications"
+   ]
+  },
+  {
+   "name": "Paz Retail And Energy Ltd",
+   "country": "Israel",
+   "aliases": [
+    "paz retail",
+    "paz oil"
+   ]
+  },
+  {
+   "name": "Rami Levi Chain Stores Hashikma Marketing 2006 Ltd",
+   "country": "Israel",
+   "aliases": [
+    "rami levi"
+   ]
+  },
+  {
+   "name": "RENK Group AG",
+   "country": "Germany",
+   "aliases": [
+    "renk group",
+    "renk ag",
+    "renk america",
+    "renk uk"
+   ],
+   "broad": [
+    "renk"
+   ]
+  },
+  {
+   "name": "Rheinmetall AG",
+   "country": "Germany",
+   "aliases": [
+    "rheinmetall"
+   ]
+  },
+  {
+   "name": "Rolls-Royce Holdings plc",
+   "country": "UK",
+   "aliases": [
+    "rolls royce"
+   ],
+   "exclude": [
+    "rolls royce motor cars"
+   ]
+  },
+  {
+   "name": "Rotshtein Realestate Ltd",
+   "country": "Israel",
+   "aliases": [
+    "rotshtein"
+   ]
+  },
+  {
+   "name": "RTX Corp",
+   "country": "USA",
+   "aliases": [
+    "raytheon",
+    "rtx corporation",
+    "collins aerospace",
+    "pratt and whitney",
+    "rockwell collins",
+    "utc aerospace",
+    "goodrich"
+   ],
+   "broad": [
+    "rtx"
+   ]
+  },
+  {
+   "name": "Shapir Engineering and Industry Ltd",
+   "country": "Israel",
+   "aliases": [
+    "shapir engineering"
+   ]
+  },
+  {
+   "name": "Shikun & Binui Ltd",
+   "country": "Israel",
+   "aliases": [
+    "shikun and binui",
+    "shikun binui"
+   ]
+  },
+  {
+   "name": "Shufersal Ltd",
+   "country": "Israel",
+   "aliases": [
+    "shufersal"
+   ]
+  },
+  {
+   "name": "Shunfeng International Clean Energy Ltd",
+   "country": "China",
+   "aliases": [
+    "shunfeng"
+   ]
+  },
+  {
+   "name": "Sturm Ruger & Company Inc",
+   "country": "USA",
+   "aliases": [
+    "sturm ruger"
+   ]
+  },
+  {
+   "name": "Textron Inc",
+   "country": "USA",
+   "aliases": [
+    "textron",
+    "bell helicopter",
+    "bell textron",
+    "beechcraft",
+    "cessna aircraft",
+    "hawker beechcraft"
+   ]
+  },
+  {
+   "name": "Themis GREN Ltd",
+   "country": "Israel",
+   "aliases": [
+    "themis gren"
+   ]
+  },
+  {
+   "name": "thyssenkrupp AG",
+   "country": "Germany",
+   "aliases": [
+    "thyssenkrupp",
+    "thyssen krupp"
+   ],
+   "exclude": [
+    "thyssenkrupp elevator",
+    "thyssenkrupp home solutions",
+    "thyssenkrupp access"
+   ]
+  },
+  {
+   "name": "Tigbur- Temporary Professional Personnel Ltd",
+   "country": "Israel",
+   "aliases": [
+    "tigbur"
+   ]
+  },
+  {
+   "name": "Valero Energy Corp",
+   "country": "USA",
+   "aliases": [
+    "valero"
+   ],
+   "broad": [
+    "texaco"
+   ]
+  },
+  {
+   "name": "Woodward Inc",
+   "country": "USA",
+   "aliases": [
+    "woodward inc",
+    "woodward hrt",
+    "woodward fst"
+   ],
+   "broad": []
+  },
+  {
+   "name": "Z M H Hammerman Ltd",
+   "country": "Israel",
+   "aliases": [
+    "hammerman"
+   ]
+  }
+ ],
+ "_notes": "Tuned 2026-10-05 against the OCP UK FTS export: removed broad terms that only produced false positives (Perkins/Travis Perkins, Woodward, Chevron Green), excluded hotels/medical firms sharing names, excluded thyssenkrupp's former elevator business (sold 2020). Honeywell broad matches are building-controls units, not Honeywell Aerospace: they are flagged 'check'."
+}
