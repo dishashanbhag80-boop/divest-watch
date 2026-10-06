@@ -106,10 +106,12 @@ class Source:
 
     def read(self, table: str, ocids: set | None = None) -> pd.DataFrame:
         want = TABLES[table]
-        if self.tar:
-            fh = self.tar.extractfile(self.members[table])
-        else:
-            fh = open(self.path / f"{table}.csv", "rb")
+        fh = self._open(table)
+        if fh is None:
+            # Table absent from this export. Contracts Finder has no contracts or
+            # tender_lots tables at all, so callers get an empty frame with the
+            # expected columns and the left joins simply contribute nothing.
+            return pd.DataFrame(columns=want, dtype=str)
         key = "ocid" if table == "main" else "main_ocid"
         if ocids is None:
             df = pd.read_csv(fh, dtype=str, usecols=lambda c: c in want, keep_default_na=False)
@@ -123,6 +125,14 @@ class Source:
             if c not in df.columns:
                 df[c] = ""
         return df
+
+    def _open(self, table: str):
+        """Binary handle for a table, or None when the export doesn't have it."""
+        if self.tar:
+            member = self.members.get(table)
+            return self.tar.extractfile(member) if member else None
+        path = self.path / f"{table}.csv"
+        return open(path, "rb") if path.exists() else None
 
 
 # --------------------------------------------------------------------------
