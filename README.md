@@ -4,6 +4,8 @@ Tracks UK public contracts held by companies on the
 [BDS divestment shortlist](https://investigate.info/divest), and whether each one
 is still running.
 
+**Live site: https://dishashanbhag80-boop.github.io/divest-watch/**
+
 A Python pipeline reads the monthly UK procurement export and writes a dataset;
 a SvelteKit app turns that dataset into a browsable site. Both live in this repo
 and both run in CI.
@@ -92,7 +94,8 @@ behaviour down.
 ## Deploying
 
 `.github/workflows/deploy.yml` typechecks, tests, builds and publishes to GitHub
-Pages on every push to `main`. Turn it on under **Settings → Pages → Build and
+Pages on every push to `main`. Pages is already configured to build from GitHub
+Actions; a fresh fork needs that set under **Settings → Pages → Build and
 deployment → Source: GitHub Actions**.
 
 Every internal link is resolved relative to the page it sits on, so the same
@@ -101,8 +104,8 @@ base path to configure.
 
 `.github/workflows/refresh.yml` runs on the 7th of each month at 06:17 UTC, a few
 days after the registry's monthly update. It downloads the newest export, rebuilds
-`data/`, and commits only if something changed — which then triggers a deploy. Run
-it by hand the first time from the **Actions** tab.
+`data/`, and commits only if something changed — which then triggers a deploy. It
+can also be run on demand from the **Actions** tab.
 
 ## Editing the company list
 
